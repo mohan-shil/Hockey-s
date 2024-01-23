@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body class="mx-20">
     <header>
         <!-- Nav bar Section  -->
         <div class="sm:mx-4 lg:mx-20">
@@ -55,36 +55,33 @@
         <div class="sm:mx-10 lg:mx-[105px] mt-10 ">
             <div class="carousel w-full">
                 <!-- Slide 1 -->
-                <div id="slide1" class="carousel-item relative w-full">
-                  <img src="Images/1.png" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <div id="slide1" class="carousel-item relative w-full  bg-[url(../Images/1.png)] bg-no-repeat py-[38vh]">
+                  <div class=" flex justify-between transform translate-y-52 pl-5 space-x-2">
                     <a href="#slide4" class="btn btn-circle">❮</a> 
                     <a href="#slide2" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
                 <!-- Slide 2 -->
-                <div id="slide2" class="carousel-item relative  w-full ">
-                  <img src="Images/2.png" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <div id="slide2" class="carousel-item relative w-full h-full bg-[url(../Images/2.png)] bg-no-repeat py-[38vh]">
+                  <div class=" flex justify-between transform translate-y-52 pl-5 space-x-2">
                     <a href="#slide1" class="btn btn-circle">❮</a> 
                     <a href="#slide3" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
                 <!-- Slide 3 -->
-                <div id="slide3" class="carousel-item relative  w-full ">
-                  <img src="Images/3.png" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <div id="slide3" class="carousel-item relative w-full bg-[url(../Images/3.png)] bg-no-repeat py-[38vh]">
+                  <div class=" flex justify-between transform translate-y-52 pl-5 space-x-2">
                     <a href="#slide2" class="btn btn-circle">❮</a> 
                     <a href="#slide4" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
                 <!-- Slide 4 -->
-                <div id="slide4" class="carousel-item relative  w-full ">
-                  <img src="Images/4.png" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <div id="slide4" class="carousel-item relative w-full bg-[url(../Images/4.png)] bg-no-repeat py-[38vh]">
+                  <div class=" flex justify-between transform translate-y-52 pl-5 space-x-2">
                     <a href="#slide3" class="btn btn-circle">❮</a> 
                     <a href="#slide1" class="btn btn-circle">❯</a>
                   </div>
+                </div> 
                 </div>
               </div>
         </div>
@@ -99,8 +96,8 @@
         </section>
     <!-- Section 2 (Graphs and Number's) -->
         <section class="grid lg:flex justify-center items-center gap-10 mx-52 my-20">
-            <div class="grid">
-                <div class="radial-progress font-bold text-red-600 " style="--value:87;" role="progressbar">87%
+            <div class="">
+                <div class="flex justify-center items-center text-center radial-progress font-bold text-red-600 " style="--value:87;" role="progressbar"> <span class="text-white">87%</span> 
                 </div>
                 <div class="text-center mt-4">
                     <h5 class="text-bold"> Prayer Facility</h5>
@@ -108,7 +105,7 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="radial-progress font-bold text-green-400 " style="--value:95;" role="progressbar">95%
+                <div class="radial-progress font-bold text-green-400 " style="--value:95;" role="progressbar"><span class="text-white">95%</span>
                 </div>
                 <div class="text-center mt-4">
                     <h5>Experienced Coach</h5>
@@ -116,7 +113,7 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="radial-progress font-bold text-yellow-300 " style="--value:90;" role="progressbar">90%
+                <div class="radial-progress font-bold text-yellow-300 " style="--value:90;" role="progressbar"><span class="text-white">90%</span>
                 </div>
                 <div class="text-center mt-4">
                     <h5>Senior Player</h5>
@@ -124,15 +121,57 @@
                 </div>
             </div>
             <div class="grid">
-                <div class="radial-progress font-bold text-blue-500 " style="--value:80;" role="progressbar">80%
+                <div class="radial-progress font-bold text-blue-500 " style="--value:80;" role="progressbar"><span class="text-white">80%</span>
                 </div>
                 <div class="text-center mt-4">
                     <h5>Training Ground</h5>
                     <p>Where dedication meets sweat, shaping champions for on-ice excellence.</p>
                 </div>
             </div>
-            
-            
+        </section>
+    <!-- Section 3 (Program Section) -->
+        <section>
+            <div class=" justify-center items-center text-center m-16 mx-5 lg:m-20 ">
+                <h1 class="font-medium text-3xl">Program Sections</h1>
+                <p class="mx-10 lg:mx-40 mt-5"> We offer more several programs like junior, teenager and also professional.</p>
+            </div>
+        </section>
+    <!-- Section 4 (Program Layouts) -->
+        <section>
+          <div class="flex justify-center items-center gap-5 w-full mx-16">
+            <div class="bg-[#131318]">
+              <img src="Images/2.png" alt="">
+              <div class="absolute transform- translate-x-10 -translate-y-60">
+                <h2 class=" font-bold text-3xl mb-2  text-white">Junior Program</h2>
+                <p class="w-2/3 text-white mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, dolore.</p>
+                <a class="btn bg-[#FF4240] gap-2  border-none w-32 text-white">Register Now!</a>
+              </div>
+            </div>
+            <div class=" bg-[linear-gradient-(rgba(19, 19, 24, 0.50))]">
+              <img src="Images/3.png" alt="">
+              <div class="absolute transform- translate-x-10 -translate-y-60">
+                <h2 class=" font-bold text-3xl mb-2  text-white">Teenager Program</h2>
+                <p class="w-2/3 text-white mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, dolore.</p>
+                <a class="btn bg-[#FF4240] gap-2  border-none w-32 text-white">Register Now!</a>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center items-center mt-5 w-full mx-16">
+            <img src="Images/4.png" alt="">
+            <div class="absolute transform- -translate-x-5 -translate-y-10">
+              <h2 class=" font-bold text-3xl mb-2  text-white">Senior Program</h2>
+              <p class="w-2/3 text-white mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fugit quia corrupti dolorum repudiandae eius possimus nam fugiat id. Reiciendis.</p>
+              <a class="btn bg-[#FF4240] gap-2  border-none w-32 text-white">Register Now!</a>
+            </div>
+          </div>
+        </section>
+        <!-- Section 5 (Product Section) -->
+        <section>
+          <div class=" justify-center items-center text-center m-16 mx-5 lg:m-20 ">
+              <h1 class="font-medium text-3xl">Our New Products</h1>
+              <p class="mx-10 lg:mx-40 mt-5"> We offer more several programs like junior, teenager and also professional.</p>
+          </div>
+      </section>
     </main>
     <footer>
 
